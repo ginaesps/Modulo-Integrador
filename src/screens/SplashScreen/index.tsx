@@ -18,7 +18,7 @@ const Component = (props: Props) => {
 
   return (
     <View style={styles.Container}>
-      <ImageBackground source={image} resizeMode="cover" style={styles.Image} />
+      <ImageBackground source={require('../../assets/SplashScreen.png')} resizeMode="cover" style={styles.Image} />
     </View>
   );
 };
