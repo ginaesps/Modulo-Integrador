@@ -20,6 +20,7 @@ const Component = () => {
       }}>
       <Stack.Screen name="Splash" component={SplashScreen} />
       <Stack.Screen name="Login" component={LoginScreen} />
+      <Stack.Screen name="Home" component={ContainerScreen} />
       <Stack.Screen name="Container" component={ContainerScreen} />
       <Stack.Screen name="ContainerDetail" component={ContainerDetailScreen} />
       <Stack.Screen name="Employees" component={EmployeesScreen} />
