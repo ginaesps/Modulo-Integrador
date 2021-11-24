@@ -8,5 +8,5 @@ export interface ContainerInterface{
     temperatura: number,
     estado: string,
     observaciones: string,
-    img: String,
+    img: String
 }
