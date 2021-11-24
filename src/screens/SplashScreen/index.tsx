@@ -3,8 +3,6 @@ import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import React, {useEffect} from 'react';
 import {ImageBackground, StyleSheet, View} from 'react-native';
 
-const image = require('../../assets/images/BreakingBadPortrait.jpg');
-
 interface Props extends NativeStackScreenProps<any, any> {}
 
 const Component = (props: Props) => {
