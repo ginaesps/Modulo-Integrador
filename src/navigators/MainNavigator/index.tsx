@@ -8,6 +8,7 @@ import EmployeesScreen from '../../screens/EmployeesScreen';
 import LoginScreen from '../../screens/LoginScreen';
 import SplashScreen from '../../screens/SplashScreen';
 import SettingsScreen from '../../screens/SettingsScreen';
+import HomeScreen from '../../screens/HomeScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,7 +21,7 @@ const Component = () => {
       }}>
       <Stack.Screen name="Splash" component={SplashScreen} />
       <Stack.Screen name="Login" component={LoginScreen} />
-      <Stack.Screen name="Home" component={ContainerScreen} />
+      <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Container" component={ContainerScreen} />
       <Stack.Screen name="ContainerDetail" component={ContainerDetailScreen} />
       <Stack.Screen name="Employees" component={EmployeesScreen} />
