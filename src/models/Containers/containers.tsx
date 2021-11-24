@@ -51,6 +51,6 @@ var cont4 = {
   img: 'https://img2.freepng.es/20190215/qci/kisspng-shipping-containers-intermodal-container-cargo-war-2-5c6673a5b6dc96.787457741550218149749.jpg',
 };
 
-var contenedores = [cont1, cont2, cont3, cont4];
+var contenedores = [cont1, cont2, cont3, cont4, cont4, cont4, cont4, cont4, cont4, cont4, cont4, cont4, cont4];
 
 export default contenedores;
