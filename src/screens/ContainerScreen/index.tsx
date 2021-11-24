@@ -12,7 +12,7 @@ const Component = (props: Props) => {
   const {navigation} = props;
 
   const onSelectedContainer = (container: ContainerInterface) =>{
-    //navigation.navigate('ContainerDetail')
+    navigation.navigate('ContainerDetail', container)
   }
 
   const renderContainers = ContainersInfo?.map((contenedor, index)=>{
