@@ -9,8 +9,17 @@ import LoginScreen from '../../screens/LoginScreen';
 import SplashScreen from '../../screens/SplashScreen';
 import SettingsScreen from '../../screens/SettingsScreen';
 import HomeScreen from '../../screens/HomeScreen';
+import { ContainerInterface } from '../../interfaces/ContainerInterface/ContainerInterface';
+
+export type MainParams = {
+  Splash: undefined,
+  Login: undefined,
+  Home: undefined,
+  ContainerDetail: ContainerInterface;
+}
 
 const Stack = createNativeStackNavigator();
+
 
 const Component = () => {
   return (
