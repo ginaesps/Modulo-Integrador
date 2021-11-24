@@ -1,12 +1,30 @@
 /* eslint-disable prettier/prettier */
-import React from 'react';
-import { Text, View } from 'react-native';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import React, { useEffect, useState } from 'react';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import EmployeeCard from '../../components/EmployeeCard';
+import { EmployeeInterface } from '../../interfaces/EmployeesInterface/EmployeesInterface';
+import EmployeesInfo from '../../models/Employees/employees';
 
-const Component = () => {
+interface Props extends NativeStackScreenProps<any, any> {}
+
+const Component = (props: Props) => {
+  const {navigation} = props;
+
+  const onSelectedEmployee = (employee: EmployeeInterface) =>{
+    navigation.navigate('EmployeeDetail', employee)
+  }
+
+  const renderEmployees = EmployeesInfo?.map((empleado, index)=>{
+      return <EmployeeCard 
+      key={`empleado-${index}`}
+      empleado={empleado}
+      onClick={onSelectedEmployee}/>;
+    });
+
+
   return (
-    <View>
-      <Text>EmployeesScreen</Text>
-    </View>
+      <ScrollView>{renderEmployees}</ScrollView>
   );
 };
 
