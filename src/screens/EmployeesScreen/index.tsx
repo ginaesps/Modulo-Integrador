@@ -19,7 +19,7 @@ const Component = (props: Props) => {
       return <EmployeeCard 
       key={`empleado-${index}`}
       empleado={empleado}
-      onClick={onSelectedEmployee}/>;
+      />;
     });
 
 

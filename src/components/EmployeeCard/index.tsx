@@ -4,25 +4,22 @@ import { EmployeeInterface } from '../../interfaces/EmployeesInterface/Employees
 
 interface Props{
     empleado: EmployeeInterface
-    onClick: (empleado: EmployeeInterface) => void;
 }
 
 const Component = (props: Props) => {
-    const {empleado, onClick} = props;
+    const {empleado} = props;
     const {nombre, num_trabajador, edad, foto} = empleado;
 
     return (
-        <TouchableOpacity onPress={() => onClick(empleado)}>
-            <View style={styles.Container}>
-                <Image
-                    style={styles.containerImg}
-                    source={{uri: foto}}
-                />
-                <Text>Nombre: {nombre}</Text>
-                <Text>#: {num_trabajador}</Text>
-                <Text>Edad: {edad}</Text>
-            </View>
-        </TouchableOpacity>
+        <View style={styles.Container}>
+            <Image
+                style={styles.containerImg}
+                source={{uri: foto}}
+            />
+            <Text>Nombre: {nombre}</Text>
+            <Text>#: {num_trabajador}</Text>
+            <Text>Edad: {edad}</Text>
+        </View>
     )
 }
 
