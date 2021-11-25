@@ -11,7 +11,6 @@ import SettingsScreen from '../../screens/SettingsScreen';
 import HomeScreen from '../../screens/HomeScreen';
 import { ContainerInterface } from '../../interfaces/ContainerInterface/ContainerInterface';
 import { EmployeeInterface } from '../../interfaces/EmployeesInterface/EmployeesInterface';
-import EmployeeDetailScreen from '../../screens/EmployeeDetailScreen';
 
 export type MainParams = {
   Splash: undefined,
@@ -37,7 +36,6 @@ const Component = () => {
       <Stack.Screen name="Container" component={ContainerScreen} />
       <Stack.Screen name="ContainerDetail" component={ContainerDetailScreen} />
       <Stack.Screen name="Employees" component={EmployeesScreen} />
-      <Stack.Screen name="EmployeeDetail" component={EmployeeDetailScreen} />
       <Stack.Screen name="Settings" component={SettingsScreen} />
     </Stack.Navigator>
   );
