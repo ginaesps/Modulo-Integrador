@@ -9,8 +9,8 @@ var cont1 = {
   temperatura: 50,
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 1',
-  img: 'https://img2.freepng.es/20180530/tb/kisspng-shipping-container-intermodal-container-refrigerat-5b0e8fc9328678.429139471527680969207.jpg',
-};
+  img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png',
+}
 
 var cont2 = {
   tipo: 'refrigerado',
@@ -22,8 +22,8 @@ var cont2 = {
   temperatura: 50,
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 2',
-  img: 'https://img2.freepng.es/20180530/tb/kisspng-shipping-container-intermodal-container-refrigerat-5b0e8fc9328678.429139471527680969207.jpg',
-};
+  img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png',
+}
 
 var cont3 = {
   tipo: 'seco',
@@ -35,7 +35,7 @@ var cont3 = {
   temperatura: 50,
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 3',
-  img: 'https://img2.freepng.es/20190215/qci/kisspng-shipping-containers-intermodal-container-cargo-war-2-5c6673a5b6dc96.787457741550218149749.jpg',
+  img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png',
 };
 
 var cont4 = {
@@ -48,9 +48,9 @@ var cont4 = {
   temperatura: 50,
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 4',
-  img: 'https://img2.freepng.es/20190215/qci/kisspng-shipping-containers-intermodal-container-cargo-war-2-5c6673a5b6dc96.787457741550218149749.jpg',
+  img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png'
 };
 
-var contenedores = [cont1, cont2, cont3, cont4, cont4, cont4, cont4, cont4, cont4, cont4, cont4, cont4, cont4];
+var contenedores = [cont1, cont2, cont3, cont4, cont4, cont4];
 
 export default contenedores;

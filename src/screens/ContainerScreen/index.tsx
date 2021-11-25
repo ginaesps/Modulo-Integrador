@@ -24,8 +24,14 @@ const Component = (props: Props) => {
 
 
   return (
-      <ScrollView>{renderContainers}</ScrollView>
+      <ScrollView style={styles.Container}>{renderContainers}</ScrollView>
   );
 };
+
+const styles = StyleSheet.create({
+  Container:{
+    backgroundColor: "#14213d",
+  }
+})
 
 export default Component;
