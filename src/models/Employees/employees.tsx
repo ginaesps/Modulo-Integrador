@@ -1,32 +1,39 @@
 /* eslint-disable prettier/prettier */
 var employee1 = {
-  nombre: 'Juan Perez',
+  nombre: 'Regina Espinosa González',
   num_trabajador: 1,
-  edad: 56,
-  foto: 'url',
+  edad: 20,
+  foto: 'Regina',
 };
 
 var employee2 = {
-  nombre: 'Carlos Sanchez',
+  nombre: 'María Alejandra Velazco Baltazar',
   num_trabajador: 2,
-  edad: 35,
-  foto: 'url',
+  edad: 19,
+  foto: 'Alejandra',
 };
 
 var employee3 = {
-  nombre: 'Mario Godinez',
+  nombre: 'Andrew Joshua Craig Montiel',
   num_trabajador: 3,
-  edad: 42,
-  foto: 'url',
+  edad: 20,
+  foto: 'Joshua',
 };
 
 var employee4 = {
-  nombre: 'Diego Duran',
+  nombre: 'Javier Anastasio Barreto Martinez',
   num_trabajador: 4,
-  edad: 32,
-  foto: 'url',
+  edad: 20,
+  foto: 'Javier',
 };
 
-var empleados = [employee1, employee2, employee3, employee4];
+var employee5 = {
+  nombre: 'Oskar Pablo Rolon González',
+  num_trabajador: 5,
+  edad: 20,
+  foto: 'Oskar',
+};
+
+var empleados = [employee1, employee2, employee3, employee4, employee5];
 
 export default empleados;

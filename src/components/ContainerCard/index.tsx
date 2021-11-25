@@ -36,7 +36,9 @@ const styles = StyleSheet.create({
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'row',
-        margin: 10,
+        backgroundColor: "#F7ECCE",
+        borderRadius: 20,
+        margin: 5,
     },
     ImgView:{
         alignItems:'center',
@@ -50,11 +52,11 @@ const styles = StyleSheet.create({
     InfoContainer:{
         width: "60%",
         paddingLeft: "5%",
-        backgroundColor: "#277da1",
         padding: 6,
     },
     Texto:{
-        color: "#fff",
+        fontWeight: '500',
+        color: "#000",
     }
 });
 export default Component;

@@ -24,14 +24,35 @@ const Component = (props: Props) => {
 
 
   return (
-      <ScrollView style={styles.Container}>{renderContainers}</ScrollView>
+      <View style ={styles.Container}>
+        <View style= {styles.TopBar}>
+          <Text style = {styles.TopBarText}> Containers </Text>
+        </View>
+        <ScrollView>{renderContainers}</ScrollView>
+      </View>
   );
 };
 
 const styles = StyleSheet.create({
   Container:{
-    backgroundColor: "#14213d",
-  }
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    backgroundColor: '#277da1',
+  },
+  TopBar:{
+    width: '100%',
+    backgroundColor: '#023047',
+  },
+
+  TopBarText:{
+      fontSize: 25,
+      fontWeight: '500',
+      margin: 2,
+      marginLeft: 5,
+      color: '#fff',
+      letterSpacing: 2,
+  },
 })
 
 export default Component;

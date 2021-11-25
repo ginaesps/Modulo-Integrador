@@ -10,10 +10,10 @@ var cont1 = {
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 1',
   img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png',
-}
+};
 
 var cont2 = {
-  tipo: 'refrigerado',
+  tipo: 'seco',
   numero: 2,
   origen: 'Japon',
   fecha_origen: '2021-08-12',
@@ -22,8 +22,8 @@ var cont2 = {
   temperatura: 50,
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 2',
-  img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png',
-}
+  img: 'https://us.123rf.com/450wm/kvsan/kvsan1801/kvsan180100143/94349442-contenedor-de-carga-roja-sin-inscripci%C3%B3n-en-el-fondo-blanco-3d.jpg?ver=6',
+};
 
 var cont3 = {
   tipo: 'seco',
@@ -35,7 +35,7 @@ var cont3 = {
   temperatura: 50,
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 3',
-  img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png',
+  img: 'https://us.123rf.com/450wm/kvsan/kvsan1801/kvsan180100143/94349442-contenedor-de-carga-roja-sin-inscripci%C3%B3n-en-el-fondo-blanco-3d.jpg?ver=6',
 };
 
 var cont4 = {
@@ -48,9 +48,35 @@ var cont4 = {
   temperatura: 50,
   estado: 'lleno',
   observaciones: 'observaciones de contenedor 4',
+  img: 'https://us.123rf.com/450wm/kvsan/kvsan1801/kvsan180100143/94349442-contenedor-de-carga-roja-sin-inscripci%C3%B3n-en-el-fondo-blanco-3d.jpg?ver=6',
+};
+
+var cont5 = {
+  tipo: 'refrigerado',
+  numero: 5,
+  origen: 'España',
+  fecha_origen: '2021-05-12',
+  destino: 'Argentina',
+  fecha_destino: '2021-06-12',
+  temperatura: 50,
+  estado: 'lleno',
+  observaciones: 'observaciones de contenedor 5',
   img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png'
 };
 
-var contenedores = [cont1, cont2, cont3, cont4, cont4, cont4];
+var cont6 = {
+  tipo: 'refrigerado',
+  numero: 6,
+  origen: 'México',
+  fecha_origen: '2021-07-12',
+  destino: 'Esados Unidos',
+  fecha_destino: '2021-07-28',
+  temperatura: 50,
+  estado: 'lleno',
+  observaciones: 'observaciones de contenedor 5',
+  img: 'https://www.seekpng.com/png/full/380-3801303_container-storage-container-png.png'
+};
+
+var contenedores = [cont1, cont2, cont3, cont4, cont5, cont6];
 
 export default contenedores;

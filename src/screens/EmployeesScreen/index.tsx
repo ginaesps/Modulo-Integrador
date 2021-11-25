@@ -24,8 +24,34 @@ const Component = (props: Props) => {
 
 
   return (
-      <ScrollView>{renderEmployees}</ScrollView>
+      <View style ={styles.Container}>
+        <View style= {styles.TopBar}>
+          <Text style = {styles.TopBarText}> Employees </Text>
+        </View>
+        <ScrollView>{renderEmployees}</ScrollView>
+      </View>
   );
 };
 
+const styles = StyleSheet.create({
+  Container:{
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    backgroundColor: '#277da1',
+  },
+  TopBar:{
+    width: '100%',
+    backgroundColor: '#023047',
+  },
+
+  TopBarText:{
+      fontSize: 25,
+      fontWeight: '500',
+      margin: 2,
+      marginLeft: 5,
+      color: '#fff',
+      letterSpacing: 2,
+  },
+})
 export default Component;

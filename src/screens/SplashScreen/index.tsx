@@ -23,7 +23,7 @@ const Component = (props: Props) => {
 
 const styles = StyleSheet.create({
   Container: {
-    backgroundColor: 'red',
+    backgroundColor: 'white',
     flex: 1,
   },
   Image: {
