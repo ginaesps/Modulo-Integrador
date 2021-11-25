@@ -22,7 +22,7 @@ const Component = (props: Props) => {
                     </View>
                 <View style={styles.InfoContainer}>
                     <Text style={styles.Texto}>Tipo: {tipo}</Text>
-                    <Text style={styles.Texto}>#: {numero}</Text>
+                    <Text style={styles.Texto}>No. de Contenedor: {numero}</Text>
                     <Text style={styles.Texto}>Origen: {origen}</Text>
                     <Text style={styles.Texto}>Destino: {destino}</Text>
                 </View>

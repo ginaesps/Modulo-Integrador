@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {
+  Alert,
   Image,
   StyleSheet,
   Text,
@@ -23,7 +24,19 @@ const Component = (props: Props) => {
   }, [email, password]);
 
   const doLogin = () => {
-    if (email === '1' && password === '1') navigation.navigate('Home');
+    if (email.includes('@') && email.includes('.com') && email!="")
+    {
+      if(password.length!=0)
+      {
+        navigation.navigate('Home');
+      }
+      else
+      Alert.alert("Contraseña incorrecta", "ok")
+    }
+    else
+    {
+      Alert.alert("Email incorrecto", "ok")
+    }
   };
 
   return (

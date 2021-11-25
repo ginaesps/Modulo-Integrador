@@ -16,9 +16,11 @@ const Component = (props: Props) => {
                 style={styles.containerImg}
                 source={{uri: foto}}
             />
-            <Text>Nombre: {nombre}</Text>
-            <Text>#: {num_trabajador}</Text>
-            <Text>Edad: {edad}</Text>
+            <View>
+                <Text>Nombre: {nombre}</Text>
+                <Text>No. de trabajador: {num_trabajador}</Text>
+                <Text>Edad: {edad}</Text>
+            </View>
         </View>
     )
 }
@@ -30,6 +32,8 @@ const styles = StyleSheet.create({
         width: "100%",
         alignItems: 'center',
         margin: 5,
+        display: 'flex',
+        flexDirection: 'row',
     },
     containerImg:{
         width: 120,
